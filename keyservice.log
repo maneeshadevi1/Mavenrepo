@@ -1,0 +1,141 @@
+04:39:45,347  INFO LuksRestClient:59 - args 2
+04:39:45,361  INFO LuksRestClient:71 - Inserting file=/opt/ibm/.luks-escrow/20FMS1VA1DPC0F945P02455U744.xml
+04:39:45,407  INFO Jaxb2Marshaller:365 - Creating JAXBContext with classes to be bound [class com.ibm.sit.keyservice.domain.OpenClient,class com.ibm.sit.keyservice.domain.Machine,class com.ibm.sit.keyservice.domain.Drive,class com.ibm.sit.keyservice.domain.Partition,class com.ibm.sit.keyservice.domain.Password,class com.ibm.sit.keyservice.domain.User]
+04:39:45,742  INFO LuksRestClient:80 - * Machine *
+********  MACHINE  ********
+ID=20FMS1VA1DPC0F945P02455U744
+MAKE=20FM
+MODEL=S1VA1D
+SERIAL=PC0F945P
+EMP_SN=02455U744
+USER_TYPE=Primary Workstation
+TOTAL_DRIVES=1
+
+* DRIVE *
+ID=MZ7LN512HMJP-000L7S2X9NX0H902254
+MACHINE_ID=20FMS1VA1DPC0F945P02455U744
+MAKE=SAMSUNG
+MODEL=MZ7LN512HMJP-000L7
+SERIAL=S2X9NX0H902254
+TOTAL PARTITIONS=1
+
+* PARTITION *
+ID=a0d34222-7e71-4a7f-837c-47c032b2fb72
+DRIVE_ID=MZ7LN512HMJP-000L7S2X9NX0H902254
+UNIT_IDENTIFIER=UNIT-a0d34222-7e71-4a7f-837c-47c032b2fb72
+ACTIVE=true
+
+
+********  MACHINE  ********
+
+04:39:45,743  INFO OpenClientService:70 - com.ibm.sit.keyservice.domain.OpenClient@65ae6ba4
+04:39:45,743  INFO OpenClientService:71 - Inserting open client - MID=20FMS1VA1DPC0F945P02455U744
+04:39:45,760  INFO OpenClientService:74 - URL - http://106.w3cloud.ibm.com/tools/ers/rest/luks.html
+04:39:45,760  INFO Jaxb2Marshaller:365 - Creating JAXBContext with classes to be bound [class com.ibm.sit.keyservice.domain.OpenClient,class com.ibm.sit.keyservice.domain.Drive,class com.ibm.sit.keyservice.domain.Drive,class com.ibm.sit.keyservice.domain.Partition,class com.ibm.sit.keyservice.domain.Password,class com.ibm.sit.keyservice.domain.Drive,class com.ibm.sit.keyservice.domain.User]
+04:39:45,838  INFO OpenClientService:86 - Content-Type: text/plain; charset=UTF-8
+04:39:45,838  INFO OpenClientService:87 - 1732569
+04:39:45,841  INFO OpenClientService:88 - UTF-8
+04:39:45,844  INFO OpenClientService:89 - 1732569
+04:39:46,312  INFO LuksRestClient:83 - * Response *
+<luks><status>404</status><message>ERROR - RuntimeException - 106.w3cloud.ibm.com: Name or service not known</message></luks>
+04:39:46,314  INFO LuksRestClient:89 - response written to /root/REGISTER-RESPONSE-1572995386312.txt
+04:39:46,314  INFO LuksRestClient:90 - OpenClient 20FMS1VA1DPC0F945P02455U744 registered.
+04:39:46,314  INFO LuksRestClient:191 - Total execution time= 967
+seconds=0.0
+minutes=0.0
+hours=0.0
+14:15:02,313  INFO LuksRestClient:59 - args 2
+14:15:02,320  INFO LuksRestClient:71 - Inserting file=/opt/ibm/.luks-escrow/20FMS1VA1DPC0F945P02455U744.xml
+14:15:02,344  INFO Jaxb2Marshaller:365 - Creating JAXBContext with classes to be bound [class com.ibm.sit.keyservice.domain.OpenClient,class com.ibm.sit.keyservice.domain.Machine,class com.ibm.sit.keyservice.domain.Drive,class com.ibm.sit.keyservice.domain.Partition,class com.ibm.sit.keyservice.domain.Password,class com.ibm.sit.keyservice.domain.User]
+14:15:02,509  INFO LuksRestClient:80 - * Machine *
+********  MACHINE  ********
+ID=20FMS1VA1DPC0F945P02455U744
+MAKE=20FM
+MODEL=S1VA1D
+SERIAL=PC0F945P
+EMP_SN=02455U744
+USER_TYPE=Primary Workstation
+TOTAL_DRIVES=1
+
+* DRIVE *
+ID=MZ7LN512HMJP-000L7S2X9NX0H902254
+MACHINE_ID=20FMS1VA1DPC0F945P02455U744
+MAKE=SAMSUNG
+MODEL=MZ7LN512HMJP-000L7
+SERIAL=S2X9NX0H902254
+TOTAL PARTITIONS=1
+
+* PARTITION *
+ID=a0d34222-7e71-4a7f-837c-47c032b2fb72
+DRIVE_ID=MZ7LN512HMJP-000L7S2X9NX0H902254
+UNIT_IDENTIFIER=UNIT-a0d34222-7e71-4a7f-837c-47c032b2fb72
+ACTIVE=true
+
+
+********  MACHINE  ********
+
+14:15:02,509  INFO OpenClientService:70 - com.ibm.sit.keyservice.domain.OpenClient@65ae6ba4
+14:15:02,509  INFO OpenClientService:71 - Inserting open client - MID=20FMS1VA1DPC0F945P02455U744
+14:15:02,521  INFO OpenClientService:74 - URL - http://106.w3cloud.ibm.com/tools/ers/rest/luks.html
+14:15:02,521  INFO Jaxb2Marshaller:365 - Creating JAXBContext with classes to be bound [class com.ibm.sit.keyservice.domain.OpenClient,class com.ibm.sit.keyservice.domain.Drive,class com.ibm.sit.keyservice.domain.Drive,class com.ibm.sit.keyservice.domain.Partition,class com.ibm.sit.keyservice.domain.Password,class com.ibm.sit.keyservice.domain.Drive,class com.ibm.sit.keyservice.domain.User]
+14:15:02,576  INFO OpenClientService:86 - Content-Type: text/plain; charset=UTF-8
+14:15:02,576  INFO OpenClientService:87 - 1732569
+14:15:02,579  INFO OpenClientService:88 - UTF-8
+14:15:02,581  INFO OpenClientService:89 - 1732569
+14:15:03,028  INFO LuksRestClient:83 - * Response *
+<luks><status>404</status><message>ERROR - RuntimeException - 106.w3cloud.ibm.com: Name or service not known</message></luks>
+14:15:03,031  INFO LuksRestClient:89 - response written to /root/REGISTER-RESPONSE-1573029903028.txt
+14:15:03,031  INFO LuksRestClient:90 - OpenClient 20FMS1VA1DPC0F945P02455U744 registered.
+14:15:03,032  INFO LuksRestClient:191 - Total execution time= 720
+seconds=0.0
+minutes=0.0
+hours=0.0
+14:30:02,272  INFO LuksRestClient:59 - args 2
+14:30:02,279  INFO LuksRestClient:71 - Inserting file=/opt/ibm/.luks-escrow/20FMS1VA1DPC0F945P02455U744.xml
+14:30:02,306  INFO Jaxb2Marshaller:365 - Creating JAXBContext with classes to be bound [class com.ibm.sit.keyservice.domain.OpenClient,class com.ibm.sit.keyservice.domain.Machine,class com.ibm.sit.keyservice.domain.Drive,class com.ibm.sit.keyservice.domain.Partition,class com.ibm.sit.keyservice.domain.Password,class com.ibm.sit.keyservice.domain.User]
+14:30:02,493  INFO LuksRestClient:80 - * Machine *
+********  MACHINE  ********
+ID=20FMS1VA1DPC0F945P02455U744
+MAKE=20FM
+MODEL=S1VA1D
+SERIAL=PC0F945P
+EMP_SN=02455U744
+USER_TYPE=Primary Workstation
+TOTAL_DRIVES=1
+
+* DRIVE *
+ID=MZ7LN512HMJP-000L7S2X9NX0H902254
+MACHINE_ID=20FMS1VA1DPC0F945P02455U744
+MAKE=SAMSUNG
+MODEL=MZ7LN512HMJP-000L7
+SERIAL=S2X9NX0H902254
+TOTAL PARTITIONS=1
+
+* PARTITION *
+ID=a0d34222-7e71-4a7f-837c-47c032b2fb72
+DRIVE_ID=MZ7LN512HMJP-000L7S2X9NX0H902254
+UNIT_IDENTIFIER=UNIT-a0d34222-7e71-4a7f-837c-47c032b2fb72
+ACTIVE=true
+
+
+********  MACHINE  ********
+
+14:30:02,493  INFO OpenClientService:70 - com.ibm.sit.keyservice.domain.OpenClient@65ae6ba4
+14:30:02,494  INFO OpenClientService:71 - Inserting open client - MID=20FMS1VA1DPC0F945P02455U744
+14:30:02,509  INFO OpenClientService:74 - URL - http://106.w3cloud.ibm.com/tools/ers/rest/luks.html
+14:30:02,509  INFO Jaxb2Marshaller:365 - Creating JAXBContext with classes to be bound [class com.ibm.sit.keyservice.domain.OpenClient,class com.ibm.sit.keyservice.domain.Drive,class com.ibm.sit.keyservice.domain.Drive,class com.ibm.sit.keyservice.domain.Partition,class com.ibm.sit.keyservice.domain.Password,class com.ibm.sit.keyservice.domain.Drive,class com.ibm.sit.keyservice.domain.User]
+14:30:02,570  INFO OpenClientService:86 - Content-Type: text/plain; charset=UTF-8
+14:30:02,570  INFO OpenClientService:87 - 1732569
+14:30:02,574  INFO OpenClientService:88 - UTF-8
+14:30:02,576  INFO OpenClientService:89 - 1732569
+14:30:06,397  INFO OpenClientService:112 - <luks><status>200</status><message>SUCCESS</message></luks>
+
+14:30:06,397  INFO LuksRestClient:83 - * Response *
+<luks><status>200</status><message>SUCCESS</message></luks>
+
+14:30:06,401  INFO LuksRestClient:89 - response written to /root/REGISTER-RESPONSE-1573030806398.txt
+14:30:06,402  INFO LuksRestClient:90 - OpenClient 20FMS1VA1DPC0F945P02455U744 registered.
+14:30:06,402  INFO LuksRestClient:191 - Total execution time= 4130
+seconds=4.0
+minutes=0.0
+hours=0.0

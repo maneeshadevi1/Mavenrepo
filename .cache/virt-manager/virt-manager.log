@@ -1,0 +1,218 @@
+[Sat, 14 Mar 2020 00:04:24 virt-manager 5093] DEBUG (cli:265) Launched with command line: /usr/share/virt-manager/virt-manager
+[Sat, 14 Mar 2020 00:04:24 virt-manager 5093] DEBUG (virt-manager:185) virt-manager version: 1.5.0
+[Sat, 14 Mar 2020 00:04:24 virt-manager 5093] DEBUG (virt-manager:186) virtManager import: <module 'virtManager' from '/usr/share/virt-manager/virtManager/__init__.pyc'>
+[Sat, 14 Mar 2020 00:04:24 virt-manager 5131] DEBUG (virt-manager:216) PyGObject version: 3.22.0
+[Sat, 14 Mar 2020 00:04:24 virt-manager 5131] DEBUG (virt-manager:220) GTK version: 3.22.30
+[Sat, 14 Mar 2020 00:04:25 virt-manager 5131] DEBUG (engine:500) libguestfs inspection support: False
+[Sat, 14 Mar 2020 00:04:25 virt-manager 5131] DEBUG (systray:74) Using AppIndicator3 for systray
+[Sat, 14 Mar 2020 00:04:25 virt-manager 5131] DEBUG (systray:156) Showing systray: False
+[Sat, 14 Mar 2020 00:04:25 virt-manager 5131] DEBUG (engine:1038) processing cli command uri= show_window= domain=
+[Sat, 14 Mar 2020 00:04:25 virt-manager 5131] DEBUG (engine:1040) No cli action requested, launching default window
+[Sat, 14 Mar 2020 00:04:25 virt-manager 5131] DEBUG (manager:207) Showing manager
+[Sat, 14 Mar 2020 00:04:25 virt-manager 5131] DEBUG (engine:405) window counter incremented to 1
+[Sat, 14 Mar 2020 00:04:25 virt-manager 5131] DEBUG (engine:159) No stored URIs found.
+[Sat, 14 Mar 2020 00:04:25 virt-manager 5131] DEBUG (engine:141) Initial gtkapplication activated
+[Sat, 14 Mar 2020 00:04:26 virt-manager 5131] DEBUG (engine:228) Determining default libvirt URI
+[Sat, 14 Mar 2020 00:04:26 virt-manager 5131] DEBUG (packageutils:44) PackageKit check/install for packages=['libvirt-daemon-kvm', 'libvirt-daemon-config-network']
+[Sat, 14 Mar 2020 00:04:29 virt-manager 5131] DEBUG (packageutils:59) package=libvirt-daemon-kvm already installed, skipping it
+[Sat, 14 Mar 2020 00:04:29 virt-manager 5131] DEBUG (packageutils:59) package=libvirt-daemon-config-network already installed, skipping it
+[Sat, 14 Mar 2020 00:04:29 virt-manager 5131] DEBUG (packageutils:65) Nothing to install
+[Sat, 14 Mar 2020 00:04:29 virt-manager 5131] DEBUG (packageutils:110) Trying to start libvirtd through systemd
+[Sat, 14 Mar 2020 00:04:29 virt-manager 5131] DEBUG (packageutils:135) libvirtd state='active'
+[Sat, 14 Mar 2020 00:04:29 virt-manager 5131] DEBUG (packageutils:137) libvirtd already active, not starting
+[Sat, 14 Mar 2020 00:04:29 virt-manager 5131] DEBUG (connection:602) conn=qemu:///system changed to state=Connecting
+[Sat, 14 Mar 2020 00:04:29 virt-manager 5131] DEBUG (connection:1019) Scheduling background open thread for qemu:///system
+[Sat, 14 Mar 2020 00:04:29 virt-manager 5131] DEBUG (connection:1071) libvirt version=4005000
+[Sat, 14 Mar 2020 00:04:29 virt-manager 5131] DEBUG (connection:1073) daemon version=4005000
+[Sat, 14 Mar 2020 00:04:29 virt-manager 5131] DEBUG (connection:1074) conn version=1005003
+[Sat, 14 Mar 2020 00:04:29 virt-manager 5131] DEBUG (connection:1076) qemu:///system capabilities:
+<capabilities>
+
+  <host>
+    <uuid>b5c370cc-2e2b-11b2-a85c-97c66b8381ee</uuid>
+    <cpu>
+      <arch>x86_64</arch>
+      <model>Skylake-Client-IBRS</model>
+      <vendor>Intel</vendor>
+      <microcode version="214"/>
+      <counter name="tsc" frequency="2495983000" scaling="no"/>
+      <topology sockets="1" cores="2" threads="2"/>
+      <feature name="ds"/>
+      <feature name="acpi"/>
+      <feature name="ss"/>
+      <feature name="ht"/>
+      <feature name="tm"/>
+      <feature name="pbe"/>
+      <feature name="dtes64"/>
+      <feature name="monitor"/>
+      <feature name="ds_cpl"/>
+      <feature name="vmx"/>
+      <feature name="smx"/>
+      <feature name="est"/>
+      <feature name="tm2"/>
+      <feature name="xtpr"/>
+      <feature name="pdcm"/>
+      <feature name="osxsave"/>
+      <feature name="tsc_adjust"/>
+      <feature name="clflushopt"/>
+      <feature name="intel-pt"/>
+      <feature name="md-clear"/>
+      <feature name="stibp"/>
+      <feature name="ssbd"/>
+      <feature name="xsaves"/>
+      <feature name="pdpe1gb"/>
+      <feature name="invtsc"/>
+      <pages unit="KiB" size="4"/>
+      <pages unit="KiB" size="2048"/>
+      <pages unit="KiB" size="1048576"/>
+    </cpu>
+    <power_management>
+      <suspend_mem/>
+      <suspend_disk/>
+      <suspend_hybrid/>
+    </power_management>
+    <iommu support="no"/>
+    <migration_features>
+      <live/>
+      <uri_transports>
+        <uri_transport>tcp</uri_transport>
+        <uri_transport>rdma</uri_transport>
+      </uri_transports>
+    </migration_features>
+    <topology>
+      <cells num="1">
+        <cell id="0">
+          <memory unit="KiB">7773884</memory>
+          <pages unit="KiB" size="4">1943471</pages>
+          <pages unit="KiB" size="2048">0</pages>
+          <pages unit="KiB" size="1048576">0</pages>
+          <distances>
+            <sibling id="0" value="10"/>
+          </distances>
+          <cpus num="4">
+            <cpu id="0" socket_id="0" core_id="0" siblings="0,2"/>
+            <cpu id="1" socket_id="0" core_id="1" siblings="1,3"/>
+            <cpu id="2" socket_id="0" core_id="0" siblings="0,2"/>
+            <cpu id="3" socket_id="0" core_id="1" siblings="1,3"/>
+          </cpus>
+        </cell>
+      </cells>
+    </topology>
+    <cache>
+      <bank id="0" level="3" type="both" size="3" unit="MiB" cpus="0-3"/>
+    </cache>
+    <secmodel>
+      <model>selinux</model>
+      <doi>0</doi>
+      <baselabel type="kvm">system_u:system_r:svirt_t:s0</baselabel>
+      <baselabel type="qemu">system_u:system_r:svirt_tcg_t:s0</baselabel>
+    </secmodel>
+    <secmodel>
+      <model>dac</model>
+      <doi>0</doi>
+      <baselabel type="kvm">+107:+107</baselabel>
+      <baselabel type="qemu">+107:+107</baselabel>
+    </secmodel>
+  </host>
+
+  <guest>
+    <os_type>hvm</os_type>
+    <arch name="i686">
+      <wordsize>32</wordsize>
+      <emulator>/usr/libexec/qemu-kvm</emulator>
+      <machine maxCpus="240">pc-i440fx-rhel7.0.0</machine>
+      <machine canonical="pc-i440fx-rhel7.0.0" maxCpus="240">pc</machine>
+      <machine maxCpus="240">rhel6.0.0</machine>
+      <machine maxCpus="240">rhel6.1.0</machine>
+      <machine maxCpus="240">rhel6.2.0</machine>
+      <machine maxCpus="240">rhel6.3.0</machine>
+      <machine maxCpus="240">rhel6.4.0</machine>
+      <machine maxCpus="240">rhel6.5.0</machine>
+      <machine maxCpus="240">rhel6.6.0</machine>
+      <domain type="qemu">
+        <emulator>/usr/libexec/qemu-kvm</emulator>
+      </domain>
+      <domain type="kvm">
+        <emulator>/usr/libexec/qemu-kvm</emulator>
+      </domain>
+    </arch>
+    <features>
+      <cpuselection/>
+      <deviceboot/>
+      <disksnapshot default="off" toggle="no"/>
+      <acpi default="on" toggle="yes"/>
+      <apic default="on" toggle="no"/>
+      <pae/>
+      <nonpae/>
+    </features>
+  </guest>
+
+  <guest>
+    <os_type>hvm</os_type>
+    <arch name="x86_64">
+      <wordsize>64</wordsize>
+      <emulator>/usr/libexec/qemu-kvm</emulator>
+      <machine maxCpus="240">pc-i440fx-rhel7.0.0</machine>
+      <machine canonical="pc-i440fx-rhel7.0.0" maxCpus="240">pc</machine>
+      <machine maxCpus="240">rhel6.0.0</machine>
+      <machine maxCpus="240">rhel6.1.0</machine>
+      <machine maxCpus="240">rhel6.2.0</machine>
+      <machine maxCpus="240">rhel6.3.0</machine>
+      <machine maxCpus="240">rhel6.4.0</machine>
+      <machine maxCpus="240">rhel6.5.0</machine>
+      <machine maxCpus="240">rhel6.6.0</machine>
+      <domain type="qemu">
+        <emulator>/usr/libexec/qemu-kvm</emulator>
+      </domain>
+      <domain type="kvm">
+        <emulator>/usr/libexec/qemu-kvm</emulator>
+      </domain>
+    </arch>
+    <features>
+      <cpuselection/>
+      <deviceboot/>
+      <disksnapshot default="off" toggle="no"/>
+      <acpi default="on" toggle="yes"/>
+      <apic default="on" toggle="no"/>
+    </features>
+  </guest>
+
+</capabilities>
+
+[Sat, 14 Mar 2020 00:04:29 virt-manager 5131] DEBUG (connection:876) Using domain events
+[Sat, 14 Mar 2020 00:04:29 virt-manager 5131] DEBUG (connection:913) Using network events
+[Sat, 14 Mar 2020 00:04:29 virt-manager 5131] DEBUG (connection:933) Using storage pool events
+[Sat, 14 Mar 2020 00:04:29 virt-manager 5131] DEBUG (connection:952) Using node device events
+[Sat, 14 Mar 2020 00:04:30 virt-manager 5131] DEBUG (connection:1198) network=default status=Active added
+[Sat, 14 Mar 2020 00:04:30 virt-manager 5131] DEBUG (connection:1198) network=isolated status=Active added
+[Sat, 14 Mar 2020 00:04:30 virt-manager 5131] DEBUG (connection:831) storage pool refresh event: pool=default
+[Sat, 14 Mar 2020 00:04:30 virt-manager 5131] DEBUG (connection:1198) interface=lo status=Active added
+[Sat, 14 Mar 2020 00:04:30 virt-manager 5131] DEBUG (connection:1198) pool=default status=Active added
+[Sat, 14 Mar 2020 00:04:30 virt-manager 5131] DEBUG (connection:1198) domain=Virtual_Client_Windows_10-2020-03-14-h-KVM status=Shutoff added
+[Sat, 14 Mar 2020 00:04:30 virt-manager 5131] DEBUG (connection:1198) interface=virbr1 status=Active added
+[Sat, 14 Mar 2020 00:04:30 virt-manager 5131] DEBUG (connection:1198) interface=virbr0 status=Active added
+[Sat, 14 Mar 2020 00:04:30 virt-manager 5131] DEBUG (connection:1198) domain=Virtual_Client_Windows_10-2019-11-06-b-KVM status=Running added
+[Sat, 14 Mar 2020 00:04:30 virt-manager 5131] DEBUG (connection:602) conn=qemu:///system changed to state=Active
+[Sat, 14 Mar 2020 00:20:58 virt-manager 5131] DEBUG (serialcon:37) Using VTE API 2.91
+[Sat, 14 Mar 2020 00:20:58 virt-manager 5131] DEBUG (details:647) Showing VM details: <vmmDomain name=Virtual_Client_Windows_10-2020-03-14-h-KVM id=0x7fc4c25f98c0>
+[Sat, 14 Mar 2020 00:20:58 virt-manager 5131] DEBUG (engine:405) window counter incremented to 2
+[Sat, 14 Mar 2020 00:21:01 virt-manager 5131] DEBUG (details:683) Closing VM details: <vmmDomain name=Virtual_Client_Windows_10-2020-03-14-h-KVM id=0x7fc4c25f98c0>
+[Sat, 14 Mar 2020 00:21:01 virt-manager 5131] DEBUG (engine:409) window counter decremented to 1
+[Sat, 14 Mar 2020 00:21:03 virt-manager 5131] DEBUG (engine:1164) Starting vm 'Virtual_Client_Windows_10-2020-03-14-h-KVM'
+[Sat, 14 Mar 2020 00:21:03 virt-manager 5131] DEBUG (connection:847) node device lifecycle event: device=net_vnet1_fe_54_00_78_75_90 event=0 reason=0
+[Sat, 14 Mar 2020 00:21:04 virt-manager 5131] DEBUG (connection:788) domain lifecycle event: domain=Virtual_Client_Windows_10-2020-03-14-h-KVM event=4 reason=0
+[Sat, 14 Mar 2020 00:21:04 virt-manager 5131] DEBUG (connection:788) domain lifecycle event: domain=Virtual_Client_Windows_10-2020-03-14-h-KVM event=2 reason=0
+[Sat, 14 Mar 2020 06:18:38 virt-manager 5131] DEBUG (engine:1134) Destroying vm 'Virtual_Client_Windows_10-2020-03-14-h-KVM'
+[Sat, 14 Mar 2020 06:18:39 virt-manager 5131] DEBUG (connection:788) domain lifecycle event: domain=Virtual_Client_Windows_10-2020-03-14-h-KVM event=5 reason=1
+[Sat, 14 Mar 2020 06:18:39 virt-manager 5131] DEBUG (connection:847) node device lifecycle event: device=net_vnet1_fe_54_00_78_75_90 event=1 reason=0
+[Sat, 14 Mar 2020 06:18:40 virt-manager 5131] DEBUG (connection:1159) nodedev=net_vnet1_fe_54_00_78_75_90 removed
+[Sat, 14 Mar 2020 06:18:41 virt-manager 5131] DEBUG (engine:1134) Destroying vm 'Virtual_Client_Windows_10-2019-11-06-b-KVM'
+[Sat, 14 Mar 2020 06:18:42 virt-manager 5131] DEBUG (connection:788) domain lifecycle event: domain=Virtual_Client_Windows_10-2019-11-06-b-KVM event=5 reason=1
+[Sat, 14 Mar 2020 06:18:42 virt-manager 5131] DEBUG (connection:847) node device lifecycle event: device=net_vnet0_fe_54_00_00_b6_50 event=1 reason=0
+[Sat, 14 Mar 2020 06:18:43 virt-manager 5131] DEBUG (connection:1159) nodedev=net_vnet0_fe_54_00_00_b6_50 removed
+[Sat, 14 Mar 2020 06:18:43 virt-manager 5131] DEBUG (manager:218) Closing manager
+[Sat, 14 Mar 2020 06:18:43 virt-manager 5131] DEBUG (engine:409) window counter decremented to 0
+[Sat, 14 Mar 2020 06:18:43 virt-manager 5131] DEBUG (engine:471) No windows found, requesting app exit
+[Sat, 14 Mar 2020 06:18:43 virt-manager 5131] DEBUG (connection:968) conn.close() uri=qemu:///system
+[Sat, 14 Mar 2020 06:18:43 virt-manager 5131] DEBUG (connection:602) conn=qemu:///system changed to state=Disconnected
+[Sat, 14 Mar 2020 06:18:43 virt-manager 5131] DEBUG (engine:495) Exiting app normally.
